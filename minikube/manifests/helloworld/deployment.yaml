@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: web
+    env: test
   name: web
   namespace: default
 spec:
