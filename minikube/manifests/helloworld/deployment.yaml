@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: web
+    env: staging
   name: web
   namespace: default
 spec:
